@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    color: ghostwhite;
+    font-family: 'Press Start 2P', cursive;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+h3{
+    align-self: center;
+}
+
+button{
+    color: ghostwhite;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 50%;
+    background-color: red;
+    border-color: #ffffff;
+    border-style: outset;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
